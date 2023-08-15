@@ -1,0 +1,7 @@
+Comando em GIT
+
+git status -- verifica o status daquele diretorio
+git init -- Adiciona arquivo de recionamento do diretorio
+git add . -- Verciona os arquivos modificados
+git commit -m "comentario"  -- Comenta e comita aquel aversao
+git push -- Sobe todo vercionamento feito par ao github 
