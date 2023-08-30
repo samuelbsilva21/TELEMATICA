@@ -1,7 +1,0 @@
-User: samuelb
-
-wsl: Sam@2024
-azure:Casteloblack@2024
-
-vm: administrator
-	sam2024
