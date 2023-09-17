@@ -1,0 +1,20 @@
+_cmdline-mode on
+y
+512900
+system-view
+local-user admin
+authorization-attribute level 3
+quit
+ntp-service unicast-server 10.1.0.1
+ntp-service unicast-server 10.1.0.7
+clock timezone brasil minus 03:0
+snmp-agent community read public
+snmp-agent community read VegetaRocks
+snmp-agent sys-info contact suporte@fariasbrito.com.br
+stp enable
+stp mode mstp
+save
+y
+
+y
+display current-configuration

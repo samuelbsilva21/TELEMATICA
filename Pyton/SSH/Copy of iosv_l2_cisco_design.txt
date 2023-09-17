@@ -1,0 +1,19 @@
+clock timezone UTC -3 
+ntp server 200.160.7.186
+
+ip access-list standard SNMP_ACCESS_RO
+permit 10.10.0.1
+permit 10.10.0.2
+permit 10.10.0.0 0.0.0.255
+
+ip access-list standard SNMP_ACCESS_RW
+permit 10.10.0.1
+permit 10.10.0.2
+permit 10.10.0.0 0.0.0.255
+
+snmp-server community STRING-COMMUNITY RO SNMP_ACCESS_RO
+snmp-server community STRING-COMMUNITYw RW SNMP_ACCESS_RW
+snmp-server contact Mvl Networks: +55 99 9999-9999 seinscrevenocanal@gmail.com
+
+snmp-server host 10.10.0.1 version 2c STRING-COMMUNITY
+snmp-server host 10.10.0.2 version 2c STRING-COMMUNITY

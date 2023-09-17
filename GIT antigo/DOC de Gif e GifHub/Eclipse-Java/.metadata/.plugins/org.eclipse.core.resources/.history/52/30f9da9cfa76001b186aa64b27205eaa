@@ -1,0 +1,32 @@
+package Prova;
+
+public class Quadrado extends Forma implements Dimensinavel {
+
+	private Float lado;
+
+	public Quadrado(int lado) {
+		this.lado = (float) lado;
+
+	}
+
+	public Float getLado() {
+		return lado;
+	}
+
+	public void setLado(int lado) {
+		this.lado = (float) lado;
+	}
+
+	@Override
+	public void area() {
+		// TODO Auto-generated method stub
+		
+		
+		
+	}
+
+	@Override
+	public String toString() {
+		return "Quadrado [lado=" + lado + "]";
+	}
+}

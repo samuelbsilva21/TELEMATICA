@@ -1,0 +1,4 @@
+INDEX VERSION 1.130+E:\DOC de Gif e GifHub\Eclipse-Java\.metadata\.plugins\org.eclipse.jdt.core
+1570852477.index
+3126038628.index
+3182951756.index

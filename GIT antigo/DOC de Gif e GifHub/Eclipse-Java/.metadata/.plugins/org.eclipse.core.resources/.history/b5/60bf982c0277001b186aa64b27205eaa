@@ -1,0 +1,17 @@
+package Prova;
+
+
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Circulo c1 = new Circulo(5,"vermelho");
+		Circulo c2= new Circulo(3,"azul");
+		Quadrado q1 = new Quadrado (3,"verde");
+		Quadrado q2 = new Quadrado (4,"roxo");
+		
+		System.out.println(c1, c2);
+	}
+
+}

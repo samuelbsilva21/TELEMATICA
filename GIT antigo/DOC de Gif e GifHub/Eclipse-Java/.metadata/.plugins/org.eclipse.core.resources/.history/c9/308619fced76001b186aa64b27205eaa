@@ -1,0 +1,33 @@
+package Prova;
+
+public class Circulo extends Forma implements Dimensinavel {
+
+	private Float raio;
+	
+	public Circulo(Float raio) {
+		this.raio = raio;
+		
+	}
+/*
+	public Float getRaio() {
+		return raio;                                      NÃO SE FAZ NECESSARIO JÁ QUE FOI INICADO PELO CONSTRUTOR
+	}
+
+	public void setRaio(Float raio) {
+		this.raio = raio;
+	}
+*/
+	@Override
+	public void area() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void redimensional(float fator) {
+		// TODO Auto-generated method stub
+		super.redimensional(fator);
+	}
+	
+	
+}

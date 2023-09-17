@@ -1,0 +1,32 @@
+
+public class Testarconvensoes {
+	static public void main(String[] args) {
+		char c = 'a';
+		System.out.println("c: " + c);
+		int i = c;
+		System.out.println("i: " + i);
+		float f = c;
+		System.out.println("f: " + f);
+		int j = 101;
+		System.out.println("j: " + j);
+		char d = (char) j;
+		System.out.println("d: " + d);
+		boolean b = true;
+		// int k = (int)b;
+		
+		testeShort((Short)3,(Short)4);
+		
+	}
+	
+
+	static void testeShort(short x, short y) {
+		x = (short) (x * y); // conversão obrigatória
+		System.out.println('x');
+		x = (short) (x / y); // conversão obrigatória
+		x = (short) (x % y); // conversão obrigatória
+		x = (short) (x + y); // conversão obrigatória
+		x = (short) (x - y); // conversão obrigatória
+		x++; // conversão desnecessária
+		x--; // conversão desnecessária
+	}
+}

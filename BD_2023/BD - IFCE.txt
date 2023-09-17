@@ -1,0 +1,15 @@
+SELECT nome, quantidade FROM produto p, item i WHERE p.id=i.produto_id AND i.pedido_id and i.pedido_id=1;
+
+SELECT nome, quantidade FROM produto p join item i on p.id=i.produto_id WHERE i.pedido_id=1;
+
+SELECT nome, quantidade, preco FROM produto p, item i, produto p WHERE p.id=i.produto_id AND i.pedido_id and i.pedido_id=1;
+
+
+DELETE from item WHERE produto_id=4 and produto_id=5;
+
+
+
+Tabela Vendas
+
+Eu quero: codigo data nome quantidade e preço 
+

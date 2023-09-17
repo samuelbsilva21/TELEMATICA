@@ -1,0 +1,5 @@
+import redimencional.Redimencional;
+
+public abstract class Forma implements Redimensionavel {
+
+}

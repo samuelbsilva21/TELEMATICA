@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class voto {
+	private static Scanner scan;
+
+	public static void main(String args[]) {
+		scan = new Scanner(System.in);
+		
+		int idade;
+		
+		System.out.print("Digite dua idade:");
+		idade = scan.nextInt();
+		
+		if (idade < 16) 
+		{
+			System.out.print("Você tem " + idade + ",e o voto é para maiores de 16");
+		}
+		else {
+			 if (idade > 64 ) {
+				 System.out.print("Você já completou " + idade + ", portanto seu voto é facultativo" );
+			 }
+			 else {
+				 System.out.print("Seu voto é obrigatório !");
+			 }
+		}
+	}
+}

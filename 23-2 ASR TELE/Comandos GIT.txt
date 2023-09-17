@@ -1,0 +1,18 @@
+Comando em GIT
+
+git status -- verifica o status daquele diretorio
+git init -- Adiciona arquivo de recionamento do diretorio
+git add . -- Verciona os arquivos modificados
+git commit -m "comentario"  -- Comenta e comita aquel a versão
+git push -- Sobe todo vercionamento feito par ao github 
+
+No seu diretório local (assumindo que já tenha o mesmo projeto clonado localmente com 'git clone ') faca apenas
+
+git pull
+Este comando sincroniza o diretório local puxando tudo de novo do diretório remoto.
+
+Caso tenha feito alterações locais que nao interessem, pode fazer
+
+git stash
+git pull
+Nota: 'git stash' guarda temporariamente as alterações 'na prateleira' caso as queira usar mais tarde.

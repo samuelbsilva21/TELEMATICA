@@ -1,0 +1,15 @@
+Comando acesso remoto SSH
+ssh nomedousuario@ipcomputador
+"Por padrão o linux não aceita conexão, deve ser feita a instalação do servidor SSH"
+
+sudo apt install openssh-server <!-- Instalação servidor SSH-->
+ip addr show <!--Verificar ip da maquina-->
+systemctl status sshd.service <!-- Verificar status do ssh -->
+cat /etc/os-release <!--Verifica versão do sistema linux--> 
+
+pwd - lista o diretorio atual
+cd .. locomoção
+cd diretorio - movimentar para local especifico 
+mkdir.nomedodiretorio  - criar diretorio
+cd ../.. - volta para desktop
+
