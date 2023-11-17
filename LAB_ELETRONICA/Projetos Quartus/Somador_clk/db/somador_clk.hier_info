@@ -1,0 +1,28 @@
+|somador_clk
+in_clk => X.CLK
+in_clk => y[0].CLK
+in_clk => y[1].CLK
+in_clk => y[2].CLK
+in_clk => y[3].CLK
+in_clk => y[4].CLK
+in_clk => y[5].CLK
+in_clk => y[6].CLK
+in_clk => y[7].CLK
+in_clk => y[8].CLK
+in_clk => y[9].CLK
+in_clk => y[10].CLK
+in_clk => y[11].CLK
+in_clk => y[12].CLK
+in_clk => y[13].CLK
+in_clk => y[14].CLK
+in_clk => y[15].CLK
+in_clk => y[16].CLK
+in_clk => y[17].CLK
+in_clk => y[18].CLK
+in_clk => y[19].CLK
+in_clk => y[20].CLK
+in_clk => y[21].CLK
+in_clk => y[22].CLK
+out_clk << X.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,33 @@
+EARLY_POWER_ESTIMATOR_FILE_FORMAT_VERSION,6
+QUARTUS_II_VERSION,22.1std.1 Build 917 02/14/2023 SC Lite Edition
+PROJECT,"contador_quartus"
+REVISION,"contador_quartus"
+PROJECT_FILE,"C:/Users/samuelb/Desktop/IFCE/TELEMATICA/LAB_ELETRONICA/Projetos Quartus/Contador/contador_quartus.qpf"
+TIME,"Thu Oct 26 00:08:43 2023"
+TIME_SECONDS,"1698289723"
+FAMILY,"MAX 10"
+DEVICE,"10M50DA"
+PACKAGE,"FBGA"
+PART,"10M50DAF484C7G"
+POWER_USE_DEVICE_CHARACTERISTICS,"TYPICAL"
+POWER_AUTO_COMPUTE_TJ,"ON"
+POWER_TJ_VALUE,"25"
+POWER_USE_CUSTOM_COOLING_SOLUTION,"OFF"
+MIN_JUNCTION_TEMPERATURE,"0"
+MAX_JUNCTION_TEMPERATURE,"85"
+POWER_PRESET_COOLING_SOLUTION,"23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+POWER_BOARD_THERMAL_MODEL,"NONE (CONSERVATIVE)"
+POWER_USE_TA_VALUE,"25.00"
+POWER_BOARD_TEMPERATURE,"-1.00"
+POWER_OJC_VALUE,"4.70"
+POWER_OCS_VALUE,"0.10"
+POWER_OSA_VALUE,"3.50"
+POWER_OJB_VALUE,"-1.00"
+VCCIO,,1A,2.50,1B,2.50,2,2.50,3,2.50,4,2.50,5,2.50,6,2.50,7,2.50,8,2.50,
+RAIL_VOLTAGES,,VCC,1.200,VCCA,2.500,VCCD_PLL,1.200,VCCINT,1.200,VCCA_ADC,2.500,
+
+
+BLOCK,Combinational cell,count,3,avg_toggle_rate,"0.000000",avg_toggle_rate_ratio,"0.000000",avg_fanout,"6.333333",fmax,"0"
+BLOCK,User Flash Memory,count,1,ufm_read_static_prob,"0",ufm_osc_enable_static_prob,"1"
+BLOCK,I/O pad,count,3,avg_toggle_rate,"0.000000",avg_toggle_rate_ratio,"0.000000",avg_fanout,"1.000000",fmax,"0",io_mode,"INPUT_PIN",output_load,"0",io_standard,"2_5",drive_strength,"DEFAULT",is_ddr,"0",input_termination,"OFF",output_termination,"OFF",output_termination_sp,"0",output_ena_static_prob,"0",nsleep_static_prob,"1",vod,"-1",slew_rate,"-1"
+BLOCK,I/O pad,count,2,avg_toggle_rate,"0.000000",avg_toggle_rate_ratio,"0.000000",avg_fanout,"0.000000",fmax,"0",io_mode,"OUTPUT_PIN",output_load,"0",io_standard,"2_5",drive_strength,"DEFAULT",is_ddr,"0",input_termination,"OFF",output_termination,"SERIES_50_OHMS_WITHOUT_CALIBRATION",output_termination_sp,"0",output_ena_static_prob,"1",nsleep_static_prob,"0",vod,"-1",slew_rate,"2"

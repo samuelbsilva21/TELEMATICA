@@ -1,0 +1,16 @@
+
+Atividade BD
+
+a>SELECT  FROM multas WHERE data_ocorrencia BETWEEN '2023-09-01' AND '2023-09-30' ORDER BY data_ocorrencia DESC;
+b>SELECT nome, SUM(mu.pontuacao) AS total_pontuação FROM motoristas mot JOIN Multas mu ON mot.id = mu.motorista_id WHERE mu.data_ocorrencia BETWEEN '2023-06-01' AND '2023-09-30' GROUP BY mot.id HAVING total_pontuação > 21;
+c>SELECT motoristas.* FROM multas RIGHT OUTER JOIN motoristas ON motoristas.id=multas.motorista_id WHERE ISNULL (multas.motorista_id) = 1;
+d>SELECT motoristas.nome, COUNT(multas.id) as total_multa FROM motoristas JOIN multas ON motoristas.id = motorista_id GROUP BY motoristas.id HAVING total_multa  1;
+e>SELECT placa_veiculo, valor_multa, data_vencimento FROM multas WHERE data_vencimento  CURDATE();
+e>SELECT SUM(valor_multa) as 	multas_já_vencidas FROM Multas WHERE data_vencimento < CURDATE() AND multas.multa_paga = 0; "Já Vencidas"
+
+
+
+
+
+
+
