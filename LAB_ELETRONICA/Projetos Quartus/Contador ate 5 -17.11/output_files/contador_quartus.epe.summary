@@ -1,0 +1,7 @@
+Early Power Estimator File Generator Status : Successful - Thu Oct 26 00:08:43 2023
+Quartus Prime Version : 22.1std.1 Build 917 02/14/2023 SC Lite Edition
+Revision Name : contador_quartus
+Top-level Entity Name : SOMADOR
+Family : MAX 10
+Device : 10M50DAF484C7G
+Power Estimation Confidence : Low: user provided insufficient toggle rate data
