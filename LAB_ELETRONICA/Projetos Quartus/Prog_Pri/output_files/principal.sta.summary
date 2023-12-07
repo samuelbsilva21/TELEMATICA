@@ -1,0 +1,257 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'CLK'
+Slack : -3.671
+TNS   : -19.760
+
+Type  : Slow 1200mV 85C Model Setup 'DIV_CLK:CHIP1|X'
+Slack : -0.427
+TNS   : -1.055
+
+Type  : Slow 1200mV 85C Model Setup 'CONT_5:CHIP8|AUX_1'
+Slack : -0.418
+TNS   : -1.064
+
+Type  : Slow 1200mV 85C Model Setup 'CONT_5:CHIP4|AUX_1'
+Slack : -0.394
+TNS   : -0.966
+
+Type  : Slow 1200mV 85C Model Setup 'CONT_9:CHIP2|AUX_1'
+Slack : -0.174
+TNS   : -0.465
+
+Type  : Slow 1200mV 85C Model Setup 'CONT_9:CHIP10|AUX_1'
+Slack : -0.168
+TNS   : -0.469
+
+Type  : Slow 1200mV 85C Model Setup 'CONT_9:CHIP6|AUX_1'
+Slack : -0.162
+TNS   : -0.436
+
+Type  : Slow 1200mV 85C Model Hold 'CONT_9:CHIP10|AUX_1'
+Slack : 0.340
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CONT_9:CHIP2|AUX_1'
+Slack : 0.347
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CONT_9:CHIP6|AUX_1'
+Slack : 0.347
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CONT_5:CHIP4|AUX_1'
+Slack : 0.348
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CONT_5:CHIP8|AUX_1'
+Slack : 0.348
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'DIV_CLK:CHIP1|X'
+Slack : 0.348
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CLK'
+Slack : 0.638
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -21.239
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CONT_5:CHIP4|AUX_1'
+Slack : -1.403
+TNS   : -7.015
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CONT_5:CHIP8|AUX_1'
+Slack : -1.403
+TNS   : -7.015
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DIV_CLK:CHIP1|X'
+Slack : -1.403
+TNS   : -7.015
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CONT_9:CHIP10|AUX_1'
+Slack : -1.403
+TNS   : -5.612
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CONT_9:CHIP2|AUX_1'
+Slack : -1.403
+TNS   : -5.612
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CONT_9:CHIP6|AUX_1'
+Slack : -1.403
+TNS   : -5.612
+
+Type  : Slow 1200mV 0C Model Setup 'CLK'
+Slack : -3.294
+TNS   : -16.903
+
+Type  : Slow 1200mV 0C Model Setup 'DIV_CLK:CHIP1|X'
+Slack : -0.288
+TNS   : -0.593
+
+Type  : Slow 1200mV 0C Model Setup 'CONT_5:CHIP8|AUX_1'
+Slack : -0.282
+TNS   : -0.610
+
+Type  : Slow 1200mV 0C Model Setup 'CONT_5:CHIP4|AUX_1'
+Slack : -0.259
+TNS   : -0.504
+
+Type  : Slow 1200mV 0C Model Setup 'CONT_9:CHIP2|AUX_1'
+Slack : -0.067
+TNS   : -0.154
+
+Type  : Slow 1200mV 0C Model Setup 'CONT_9:CHIP10|AUX_1'
+Slack : -0.066
+TNS   : -0.164
+
+Type  : Slow 1200mV 0C Model Setup 'CONT_9:CHIP6|AUX_1'
+Slack : -0.061
+TNS   : -0.135
+
+Type  : Slow 1200mV 0C Model Hold 'CONT_9:CHIP10|AUX_1'
+Slack : 0.306
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CONT_5:CHIP4|AUX_1'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CONT_5:CHIP8|AUX_1'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CONT_9:CHIP2|AUX_1'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CONT_9:CHIP6|AUX_1'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'DIV_CLK:CHIP1|X'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CLK'
+Slack : 0.591
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -21.239
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CONT_5:CHIP4|AUX_1'
+Slack : -1.403
+TNS   : -7.015
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CONT_5:CHIP8|AUX_1'
+Slack : -1.403
+TNS   : -7.015
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DIV_CLK:CHIP1|X'
+Slack : -1.403
+TNS   : -7.015
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CONT_9:CHIP10|AUX_1'
+Slack : -1.403
+TNS   : -5.612
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CONT_9:CHIP2|AUX_1'
+Slack : -1.403
+TNS   : -5.612
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CONT_9:CHIP6|AUX_1'
+Slack : -1.403
+TNS   : -5.612
+
+Type  : Fast 1200mV 0C Model Setup 'CLK'
+Slack : -1.210
+TNS   : -2.738
+
+Type  : Fast 1200mV 0C Model Setup 'DIV_CLK:CHIP1|X'
+Slack : 0.370
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'CONT_5:CHIP8|AUX_1'
+Slack : 0.381
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'CONT_5:CHIP4|AUX_1'
+Slack : 0.387
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'CONT_9:CHIP2|AUX_1'
+Slack : 0.492
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'CONT_9:CHIP10|AUX_1'
+Slack : 0.499
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'CONT_9:CHIP6|AUX_1'
+Slack : 0.505
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CONT_9:CHIP10|AUX_1'
+Slack : 0.148
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CONT_5:CHIP4|AUX_1'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CONT_5:CHIP8|AUX_1'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CONT_9:CHIP2|AUX_1'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CONT_9:CHIP6|AUX_1'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'DIV_CLK:CHIP1|X'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CLK'
+Slack : 0.247
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -16.429
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CONT_5:CHIP4|AUX_1'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CONT_5:CHIP8|AUX_1'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DIV_CLK:CHIP1|X'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CONT_9:CHIP10|AUX_1'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CONT_9:CHIP2|AUX_1'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CONT_9:CHIP6|AUX_1'
+Slack : -1.000
+TNS   : -4.000
+
+------------------------------------------------------------
